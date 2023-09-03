@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFC7EA;
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Make sure the body covers the full viewport height */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: #45FFCA;
+    padding: 50px;
+    align-self: center;
+    /* Center the form vertically */
+}
+
+input {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    background-color: #F8FDCF;
+}
+
+
+h2{
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+button{
+    padding: 10px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    background-color: #102C57;
+    color: #EA1179;
+
+}
+
+
+.error{
+    color: red;
+    font-size: 0.7rem;
+    text-align: right;
+    margin: 1rem;
+}
